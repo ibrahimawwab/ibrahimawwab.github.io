@@ -1,42 +1,33 @@
-# Dr. Muhammad Ibrahim Awwab
+# Dr. Muhammad Ibrahim Awwab — Official website
 
-**Medical Microbiologist · Cybersecurity Specialist · Open-Source Builder**
+Static, accessible portfolio site hosted at [ibrahimawwab.github.io](https://ibrahimawwab.github.io/).
 
-This repository contains the source for the professional website:
+## Identity and focus
 
-**https://ibrahimawwab.github.io**
+Clinical microbiology, healthcare cybersecurity, digital forensics, medical education and responsibly developed software. The public-facing site includes the degrees personally supplied by Ibrahim Awwab (PhD in Microbiology and MSc in Clinical Microbiology from Queen Mary University of London), without invented attendance dates or affiliations.
 
-Dr. Muhammad Ibrahim Awwab holds a PhD in Microbiology from Queen Mary University of London. The website introduces his professional background, areas of focus, selected open-source work and verified contact profiles.
+## Site structure
 
-## Areas of focus
+- `index.html` — responsive, SEO-aware site with biography, fields, selected projects, social links and Person/ProfilePage structured data
+- `favicon.svg` — brand monogram
+- `robots.txt` and `sitemap.xml` — crawl hints
+- `SECURITY.md` — existing repository disclosure policy (preserved)
 
-- Medical microbiology and laboratory science
-- Cybersecurity and digital forensics
-- Responsible automation and open-source software
-- Evidence-based communication and reproducible work
+## Professional links
 
-## Featured project
-
-- [RealityCheck](https://github.com/ibrahimawwab/RealityCheck) — an open-source evidence-assessment project. Its current status is **pre-alpha / in development**; it is not presented as production-ready.
-
-## Website structure
-
-- `index.html` — responsive, accessible static landing page
-- `README.md` — repository and site documentation
-- `SECURITY.md` — vulnerability-reporting guidance
-
-## Contact and professional profiles
-
+- [LinkedIn](https://www.linkedin.com/in/ibrahimawwab/)
 - [GitHub](https://github.com/ibrahimawwab)
-- [LinkedIn](https://www.linkedin.com/in/ibrahimawwab)
+- [Instagram @beingibrahimawwab](https://www.instagram.com/beingibrahimawwab/)
+- [Facebook](https://www.facebook.com/DrAwwabNotes/)
 - [X](https://twitter.com/ibrahimawwab)
-- [Facebook](https://www.facebook.com/drawwabnotes)
-- [Instagram](https://www.instagram.com/awwab2010)
+- [Pinterest](https://uk.pinterest.com/Awwab2014/)
+- [Reddit](https://www.reddit.com/user/Ibrahimawwab/)
+- [About.me](https://about.me/ibrahimawwab)
+- [Academia.edu](https://qmul.academia.edu/DrMuhammadIbrahimAwwab)
+- [EverybodyWiki biography](https://en.everybodywiki.com/Ibrahim_Awwab) — external, community-edited page, not Wikipedia
 
-## Accuracy policy
+## Accuracy and privacy
 
-This site avoids unsupported publication lists, unverified affiliations, invented project results and placeholder contact details. Project maturity and claims should be updated only when supported by verifiable information.
+The site does not publish private contact details, birth date, personal documents, invented cybersecurity degrees, unverified awards or project success claims. RealityCheck is described as an early-stage project. The avatar is served from the public GitHub profile and may be replaced with an approved portrait supplied by the site owner.
 
-## License
-
-No blanket license is asserted for all website content. Individual projects and assets may have separate licenses; check the relevant repository or asset notice before reuse.
+No blanket license is asserted for site content. Existing repository security policy remains in force.
