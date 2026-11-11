@@ -1,4 +1,4 @@
-# Dr. Muhammad Ibrahim Awwab — Official website
+# Ibrahim Awwab — Official website
 
 Static, accessible portfolio site hosted at [ibrahimawwab.github.io](https://ibrahimawwab.github.io/).
 
