@@ -4,7 +4,7 @@ Static, accessible portfolio site hosted at [ibrahimawwab.github.io](https://ibr
 
 ## Identity and focus
 
-Clinical microbiology, healthcare cybersecurity, digital forensics, medical education and responsibly developed software. The public-facing site includes the degrees personally supplied by Ibrahim Awwab (PhD in Microbiology and MSc in Clinical Microbiology from Queen Mary University of London), without invented attendance dates or affiliations.
+Ibrahim Awwab — Independent Researcher. Professional interests include clinical microbiology, antimicrobial resistance, molecular diagnostics, healthcare cybersecurity, digital forensics, medical education and responsibly developed software. The public-facing site includes the degrees personally supplied by Ibrahim Awwab (PhD in Microbiology and MSc in Clinical Microbiology from Queen Mary University of London), without invented attendance dates or affiliations.
 
 ## Site structure
 
@@ -15,11 +15,13 @@ Clinical microbiology, healthcare cybersecurity, digital forensics, medical educ
 
 ## Professional links
 
+- [ORCID researcher identifier](https://orcid.org/0009-0008-7559-4698)
+- [Google Scholar](https://scholar.google.com/citations?user=TQ3X-9cAAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/ibrahimawwab/)
 - [GitHub](https://github.com/ibrahimawwab)
 - [Instagram @beingibrahimawwab](https://www.instagram.com/beingibrahimawwab/)
 - [Facebook](https://www.facebook.com/DrAwwabNotes/)
-- [X](https://twitter.com/ibrahimawwab)
+- [X](https://x.com/IbrahimAwwab)
 - [Pinterest](https://uk.pinterest.com/Awwab2014/)
 - [Reddit](https://www.reddit.com/user/Ibrahimawwab/)
 - [About.me](https://about.me/ibrahimawwab)
