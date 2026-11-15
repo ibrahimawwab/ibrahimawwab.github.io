@@ -105,6 +105,24 @@ p { text-wrap: pretty; }
 .profile-grid a:hover { background: var(--tint); }
 .profile-grid small { grid-column: 1; color: var(--muted); overflow-wrap: anywhere; }
 .profile-grid span { grid-column: 2; grid-row: 1 / span 2; align-self: center; margin-inline: .35rem; color: var(--accent); }
+/* Draw directional arrows independently of the available font glyphs. */
+.button span[aria-hidden], .text-link span[aria-hidden], .profile-grid span[aria-hidden] {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  min-width: .8rem;
+  min-height: .8rem;
+  font-size: 0;
+}
+.button span[aria-hidden]::before, .text-link span[aria-hidden]::before, .profile-grid span[aria-hidden]::before {
+  content: "";
+  width: .68rem;
+  height: .68rem;
+  background: currentColor;
+  clip-path: polygon(0 0, 0 13%, 77% 13%, 0 90%, 10% 100%, 87% 23%, 87% 100%, 100% 100%, 100% 0);
+}
+.primary span[aria-hidden]::before, .work-list a[href="#biography"] span[aria-hidden]::before { transform: rotate(90deg); }
+
 @media (max-width: 56rem) {
   .hero { gap: 2rem; }
   .research-grid { grid-template-columns: repeat(2, minmax(0,1fr)); row-gap: 1.4rem; }
