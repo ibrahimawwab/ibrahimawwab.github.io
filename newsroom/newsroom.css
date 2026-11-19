@@ -1,17 +1,17 @@
-@import url("/portfolio.css");
+@import url("/portfolio.css?v=editorial-20261119");
 
 .brand strong, .brand small { display: block; }
 .brand small { font-size: .71rem; font-weight: 500; color: var(--muted); }
 .topbar nav a[aria-current="page"] { color: var(--accent); text-decoration-thickness: 2px; }
-.hero { display: block; padding-block: clamp(3rem, 7vw, 5.5rem); background: var(--tint); border-block-end: 1px solid var(--line); }
-.hero h1 { margin-block: .7rem; max-width: 55rem; font-size: clamp(3.65rem, 8vw, 7rem); line-height: .94; }
+.hero { display: block; padding-block: 1.4rem 1.1rem; border-block-end: 1px solid var(--line); }
+.hero h1 { margin-block: .7rem; max-width: 55rem; font-size: clamp(2.15rem, 5.2vw, 3.8rem); line-height: .94; }
 .lead { max-width: 43rem; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.2rem); }
 .crumb { font-size: .85rem; color: var(--muted); margin-bottom: .6rem; }
-main { padding-block: clamp(2rem, 6vw, 5rem); }
+main { padding-block: 1.25rem 2.25rem; }
 .layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem); gap: clamp(1.2rem, 4vw, 3rem); align-items: start; }
 .stack { display: grid; gap: 1.25rem; }
 .stack > section > h2 { margin-bottom: 1.1rem; }
-.panel { padding: clamp(1.2rem, 3vw, 2rem); background: var(--surface); border: 1px solid var(--line); border-radius: .25rem; overflow-wrap: anywhere; }
+.panel { padding: clamp(1.2rem, 3vw, 2rem); background: var(--surface); border-block-start: 1px solid var(--line); overflow-wrap: anywhere; }
 .panel + .panel { margin-top: 1rem; }
 .stack > .panel + .panel { margin-top: 0; }
 .panel h2 { font-size: clamp(1.9rem, 4vw, 3rem); }
@@ -27,10 +27,15 @@ main { padding-block: clamp(2rem, 6vw, 5rem); }
 .disclosure { border-inline-start: 3px solid var(--accent); background: var(--tint); padding: .8rem 1rem; margin-block: .8rem; color: var(--deep); font-size: .9rem; }
 .btn { margin-top: .65rem; }
 .article h2 { margin-top: 1.6rem; }
-.article p { line-height: 1.75; }
+.article :is(p, ul, ol, blockquote) { max-inline-size: 68ch; line-height: 1.7; }
 .line { height: 1px; background: var(--line); margin-block: 1.3rem; }
 .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .grid .panel { margin-top: 0; }
 .footer .shell > span:last-child { display: flex; flex-wrap: wrap; gap: .45rem 1rem; }
 @media (max-width: 50rem) { .layout { grid-template-columns: 1fr; } }
 @media (max-width: 34rem) { .grid { grid-template-columns: 1fr; } }
+
+.newsroom-front > .section-heading { border-block-end: 1px solid var(--line); padding-block-end: .65rem; margin: 0; }
+.newsroom-front h1 { font-size: clamp(1.6rem,4vw,2.35rem); }
+.newsroom-front .lead { margin-top: .16rem; }
+.newsroom-front .disclosure { margin-top: .8rem; font-family: var(--body); }
