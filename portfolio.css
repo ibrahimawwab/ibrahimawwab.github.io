@@ -36,7 +36,7 @@ h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); }
 .masthead-inner p { color: var(--muted); font: .75rem/1.4 var(--body); text-transform: uppercase; letter-spacing: .055em; }
 .wordmark { display: inline-block; color: var(--ink); font: 700 clamp(2.35rem,6.2vw,4.4rem)/1 var(--display); letter-spacing: -.062em; text-transform: uppercase; text-decoration: none; }
 .section-nav { position: sticky; z-index: 5; inset-block-start: 0; background: var(--paper); }
-.section-nav .shell { display: flex; gap: clamp(.6rem,2vw,1.6rem); overflow-x: auto; scrollbar-width: thin; padding-inline: 3px; border-block: 2px solid var(--ink) 1px solid var(--line); }
+.section-nav .shell { display: flex; gap: clamp(.6rem,2vw,1.6rem); overflow-x: auto; scrollbar-width: thin; padding-inline: 3px; border-block-start: 2px solid var(--ink); border-block-end: 1px solid var(--line); }
 .section-nav a { flex: 0 0 auto; padding: .85rem .2rem; color: var(--ink); font: 700 .75rem/1.25 var(--body); text-transform: uppercase; text-decoration: none; }
 .section-nav a:focus-visible { outline-offset: -2px; }
 .section-nav a:hover, .section-nav a[aria-current="page"] { color: var(--accent); box-shadow: inset 0 -2px var(--accent); }
@@ -107,6 +107,17 @@ h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); }
 .profile-grid a:hover { color: var(--accent); }
 .profile-grid small { grid-column: 1; color: var(--muted); overflow-wrap: anywhere; }
 .profile-grid span { grid-column: 2; grid-row: 1 / span 2; align-self: center; color: var(--accent); }
+/* Keep directional icons legible with the same type fallback as the masthead. */
+.text-link span[aria-hidden], .profile-grid span[aria-hidden] {
+  display: inline-block;
+  inline-size: .65rem;
+  block-size: .65rem;
+  background: currentColor;
+  clip-path: polygon(0 0, 0 14%, 76% 14%, 0 90%, 10% 100%, 86% 24%, 86% 100%, 100% 100%, 100% 0);
+  font-size: 0;
+}
+.text-link[href="#biography"] span[aria-hidden] { transform: rotate(90deg); }
+
 
 @media (min-width: 44rem) {
   .front-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }

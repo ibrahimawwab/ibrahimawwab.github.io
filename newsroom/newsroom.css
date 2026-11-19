@@ -1,4 +1,4 @@
-@import url("/portfolio.css?v=editorial-20261119");
+@import url("/portfolio.css?v=editorial-20261119-r2");
 
 .brand strong, .brand small { display: block; }
 .brand small { font-size: .71rem; font-weight: 500; color: var(--muted); }
